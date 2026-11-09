@@ -44,6 +44,6 @@ Cada fuente se documenta con unidad, periodicidad, cobertura geográfica, fecha 
 
 La carpeta [`fragmentos/`](fragmentos/) contiene ejemplos cortos del enfoque, con datos sintéticos. No es el pipeline completo del análisis.
 
-## Autor
+## Autor del análisis
 
-Crixus70
+Cristóbal Antonio Hernández Juárez
