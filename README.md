@@ -33,6 +33,24 @@ Cada fuente se documenta con unidad, periodicidad, cobertura geográfica, fecha 
 4. **Exploración:** revisar tendencias y asociaciones temporales.
 5. **Comunicación:** resumir hallazgos con sus límites.
 
+## Cifras verificadas (julio 2026)
+
+Consultadas el 2026-11-08. Solo se incluyen cifras contrastadas con la fuente indicada.
+
+| Variable | Valor | Fuente | Nota |
+|---|---|---|---|
+| Brent, promedio mensual (USD/barril) | 83.76 | FRED, serie MCOILBRENTEU (EIA) | Coincide con la cifra previa |
+| WTI, promedio mensual (USD/barril) | 80.46 | FRED, serie DCOILWTICO (EIA) | Promedio de 22 días hábiles |
+| USD/MXN, promedio mensual | 17.46 | FRED, serie DEXMXUS (Reserva Federal) | Promedio de 22 días hábiles |
+| Exportaciones de hidrocarburos (MMUS$) | 1,547.174 | PEMEX BDI, Valor del comercio exterior | Cifra previa: 1,531.3 |
+| Importaciones de hidrocarburos (MMUS$) | 2,391.693 | PEMEX BDI, Valor del comercio exterior | Cifra previa: 2,211.8 |
+| Exportaciones netas (MMUS$) | −844.518 | PEMEX BDI, Valor del comercio exterior | Cifra previa: −680.5 |
+| Mezcla mexicana (USD/barril) | Pendiente | PEMEX BDI | Se retira la cifra previa (74.66) hasta verificarla |
+
+**Discrepancia:** las cifras de PEMEX del análisis previo no coinciden con el BDI. La causa (versión de datos, categoría o error) no está confirmada. Se usan las cifras del BDI.
+
+Las series del BDI cubren 2026 de enero a septiembre. El análisis previo afirmaba que la serie terminaba en julio; eso no aplica a esta variable.
+
 ## Limitaciones
 
 - Una asociación temporal **no demuestra causalidad**.
