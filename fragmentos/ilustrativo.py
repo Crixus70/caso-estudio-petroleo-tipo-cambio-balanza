@@ -6,7 +6,7 @@ import pandas as pd
 rng = np.random.default_rng(42)
 
 # Precios diarios sintéticos de referencia (USD por barril)
-fechas = pd.bdate_range("2025-01-01", "2025-12-31")
+fechas = pd.bdate_range("2025-01-01", "2026-11-08")
 precio = 75 + rng.normal(0, 0.8, len(fechas)).cumsum()
 precios = pd.DataFrame({"fecha": fechas, "precio_usd_bbl": precio})
 
