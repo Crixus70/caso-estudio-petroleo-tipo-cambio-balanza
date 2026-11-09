@@ -45,11 +45,13 @@ Consultadas el 2026-11-08. Solo se incluyen cifras contrastadas con la fuente in
 | Exportaciones de hidrocarburos (MMUS$) | 1,547.174 | PEMEX BDI, Valor del comercio exterior | Cifra previa: 1,531.3 |
 | Importaciones de hidrocarburos (MMUS$) | 2,391.693 | PEMEX BDI, Valor del comercio exterior | Cifra previa: 2,211.8 |
 | Exportaciones netas (MMUS$) | −844.518 | PEMEX BDI, Valor del comercio exterior | Cifra previa: −680.5 |
-| Mezcla mexicana (USD/barril) | Pendiente | PEMEX BDI | Se retira la cifra previa (74.66) hasta verificarla |
+| Mezcla mexicana (USD/barril) | No disponible en BDI | PEMEX BDI, INDI09 | No existe fila Mezcla Mexicana. Total de exportación de julio: 81.465. Se retira la cifra previa (74.66) |
 
 **Discrepancia:** las cifras de PEMEX del análisis previo no coinciden con el BDI. La causa (versión de datos, categoría o error) no está confirmada. Se usan las cifras del BDI.
 
 Las series del BDI cubren 2026 de enero a septiembre. El análisis previo afirmaba que la serie terminaba en julio; eso no aplica a esta variable.
+
+El script `reporte/generar_reporte.py` reproduce el resumen de enero a septiembre de 2026 con los CSV de FRED incluidos en esa carpeta. Los valores del BDI están fijos en el script, con su fuente indicada.
 
 ## Limitaciones
 
