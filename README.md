@@ -2,7 +2,7 @@
 
 Caso de estudio didáctico de análisis de datos aplicado a una pregunta económica real: ¿cómo se relacionan el precio del petróleo, el tipo de cambio y el comercio exterior con la actividad económica de una región petrolera?
 
-> **Estado:** en desarrollo. El tipo de cambio USD/MXN está planeado como variable principal, pero la serie aún no está integrada al análisis. Las secciones de hallazgos se completarán cuando el análisis esté validado.
+> **Estado:** cifras verificadas de enero a septiembre de 2026 (BDI de PEMEX y FRED) y script reproducible. El análisis de tendencias y las conclusiones están disponibles bajo solicitud.
 
 ## Pregunta de negocio
 
