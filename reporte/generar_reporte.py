@@ -79,7 +79,10 @@ def grafica_comercio():
     return fig
 
 
-def imagen(fig):
+def imagen(fig, nombre):
+    carpeta = DIR / "graficas"
+    carpeta.mkdir(exist_ok=True)
+    fig.savefig(carpeta / f"{nombre}.png", format="png")
     buf = BytesIO()
     fig.savefig(buf, format="png")
     plt.close(fig)
@@ -166,7 +169,7 @@ def construir():
         "La causa (versión de datos, categoría o error) no está confirmada.", chica))
 
     historia.append(Paragraph("Precios: referencias internacionales y precio de exportación de PEMEX", h2))
-    historia.append(Image(imagen(grafica_precios()), width=16 * cm, height=7.7 * cm))
+    historia.append(Image(imagen(grafica_precios(), "precios_ene_sep_2026"), width=16 * cm, height=7.7 * cm))
     historia.append(Paragraph(
         f"Figura 1. Precios mensuales, enero a septiembre de 2026. USD por barril.", chica))
     historia.append(Spacer(1, 4))
@@ -188,7 +191,7 @@ def construir():
                               "USD/MXN es el promedio diario del mes.", chica))
 
     historia.append(Paragraph("Comercio exterior de hidrocarburos de PEMEX", h2))
-    historia.append(Image(imagen(grafica_comercio()), width=16 * cm, height=7.7 * cm))
+    historia.append(Image(imagen(grafica_comercio(), "comercio_ene_sep_2026"), width=16 * cm, height=7.7 * cm))
     historia.append(Paragraph("Figura 2. Exportaciones, importaciones y saldo mensual de PEMEX, MMUS$.", chica))
     historia.append(Spacer(1, 4))
     historia.append(Paragraph(

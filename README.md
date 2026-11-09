@@ -53,6 +53,20 @@ Las series del BDI cubren 2026 de enero a septiembre. El análisis previo afirma
 
 El script `reporte/generar_reporte.py` reproduce el resumen de enero a septiembre de 2026 con los CSV de FRED incluidos en esa carpeta. Los valores del BDI están fijos en el script, con su fuente indicada.
 
+## Gráficas y lectura de negocio
+
+![Precios mensuales: Brent, WTI y precio de exportación de PEMEX, enero a septiembre de 2026](reporte/graficas/precios_ene_sep_2026.png)
+
+- El precio de exportación de PEMEX quedó por debajo de Brent en todos los meses. La brecha fue mayor en abril y septiembre, cuando Brent alcanzó sus máximos, y mínima en julio.
+- Por eso el ingreso de PEMEX por barril no sigue a Brent al mismo ritmo: en picos de precio internacional, el crudo exportado captura una parte menor del alza.
+
+![Exportaciones, importaciones y saldo comercial de hidrocarburos de PEMEX, enero a septiembre de 2026](reporte/graficas/comercio_ene_sep_2026.png)
+
+- El saldo fue negativo de abril a septiembre: las importaciones superaron a las exportaciones en esos meses.
+- El mayor déficit fue en mayo, cuando las importaciones alcanzaron su máximo del periodo.
+
+Estas gráficas muestran asociaciones en el tiempo, no causas. Los valores de comercio son montos en dólares, así que mezclan precio y volumen.
+
 ## Limitaciones
 
 - Una asociación temporal **no demuestra causalidad**.
