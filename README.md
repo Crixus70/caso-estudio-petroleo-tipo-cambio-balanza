@@ -46,4 +46,4 @@ La carpeta [`fragmentos/`](fragmentos/) contiene ejemplos cortos del enfoque, co
 
 ## Autor del análisis
 
-Cristóbal Antonio Hernández Juárez
+Cristóbal Antonio Hernández Juárez · [Perfil de GitHub](https://github.com/Crixus70)
